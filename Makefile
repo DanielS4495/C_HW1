@@ -35,7 +35,7 @@ main.o: main.c
 	gcc -Wall -c main.c
 
 basicClassification.o: basicClassification.c
-	gcc -Wall -c basicClassification.c
+	gcc -Wall -fPIC -c basicClassification.c
 
 advancedClassificationLoop.o: advancedClassificationLoop.c 
 	gcc -Wall -fPIC -c basicClassification.c advancedClassificationLoop.c
